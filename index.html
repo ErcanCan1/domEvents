@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <title>Photo Design</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <h1>Fotoğraf Dizayn Servisi</h1>
+        <p>Sitemize hoşgeldiniz! Fotoğraf seçme işlemleri için aşağıdaki düğmeleri kullanın
+            .Fotoğraflar göründüğünde bunları listenize ekleyebilirsiniz.Sizlere yardımcı olabilmekten büyük memnuniyet duyarız.
+        </p>
+      </div>
+      <div class="topButtons">
+        <button id="allButton">Tümü</button>
+        <button id="insideButton">Fotolar1</button>
+        <button id="outsideButton">Fotolar2</button>
+      </div>
+      <div id="banner">
+        <img src="https://mimo.app/i/living-room-hostel.png">
+      </div>
+      <div class="servicesContainer">
+        <div class="servicesItem outsideServices hide" id="lawn">
+          <img src="https://mimo.app/i/colorful-flowers.png" width="300"
+            id="lawnPhoto">
+          <div>
+            <h4>Bahçe</h4>
+            <button id="lawnButton">Ekle</button>
+          </div>
+        </div>
+        <div class="servicesItem insideServices hide">
+          <img src="https://mimo.app/i/cleaning.png" width="300"
+            id="cleaningPhoto">
+          <h4>Temizlik</h4>
+          <button id="cleaningButton">Ekle</button>
+        </div>
+      </div>
+      <div class="estimatesBanner">
+        <h3 class="hide">Talep Edilenler</h3>
+        <button class="hide" id="clearEstimateButton">Talepleri Temizle</button>
+      </div>
+      <ul>
+        <li id="lawnEstimate" class="hide">Bahçe</li>
+        <li class="hide cleaningEstimate">Temizle</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
